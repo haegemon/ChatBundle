@@ -30,5 +30,10 @@
             "Cunningsoft\\ChatBundle": ""
         }
     },
-    "target-dir": "Cunningsoft/ChatBundle"
+    "target-dir": "Cunningsoft/ChatBundle",
+        "repositories":[
+        {
+            "type":"git",
+            "url":"https://github.com/haegemon/KnpTimeBundle"
+        },]
 }
