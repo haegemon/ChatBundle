@@ -35,5 +35,6 @@
         {
             "type":"git",
             "url":"http://github.com/haegemon/KnpTimeBundle"
-        },]
+        }
+        ]
 }
