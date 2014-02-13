@@ -15,6 +15,12 @@
             "homepage": "https://github.com/dmecke/ChatBundle/contributors"
         }
     ],
+    "repositories":[
+        {
+            "type":"git",
+            "url":"http://github.com/haegemon/KnpTimeBundle"
+        }
+    ],
     "require": {
         "symfony/symfony": "2.3.*",
         "doctrine/orm": ">=2.2.0",
@@ -30,11 +36,5 @@
             "Cunningsoft\\ChatBundle": ""
         }
     },
-    "target-dir": "Cunningsoft/ChatBundle",
-        "repositories":[
-        {
-            "type":"git",
-            "url":"http://github.com/haegemon/KnpTimeBundle"
-        }
-        ]
+    "target-dir": "Cunningsoft/ChatBundle"
 }
